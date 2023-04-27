@@ -1,0 +1,33 @@
+@import url(./__lang/header__lang.css);
+@import url(./__lang/-link/header__logo-link.css);
+@import url(./__logo/header__logo.css);
+/*Desktop First*/
+/*1280 + */
+.header {
+  max-width: 1184px;
+  height: 52px;
+  outline: 3px solid red;
+  padding: 28px 48px 56px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1140) {
+  .header {
+    padding: 28px 48px 48px 48px;
+  }
+}
+/*650px - 950px */
+@media screen and (max-width: 950px) {
+  .header {
+    padding: 28px 24px 48px 24px;
+  }
+}
+/* 320px - 650px*/
+@media screen and (max-width: 650px) {
+  .header {
+    padding: 16px 16px 48px 16px;
+  }
+}

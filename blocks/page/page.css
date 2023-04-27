@@ -1,0 +1,9 @@
+.page {
+  font-family: "Inter";
+  font-style: normal;
+  max-width: 1280px;
+  margin: 0 auto;
+  outline: 3px solid blue;
+  background-color: grey;
+  overflow-x: hidden;
+}

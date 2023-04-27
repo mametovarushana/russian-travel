@@ -1,0 +1,33 @@
+
+
+ .lead {
+  max-width: 984px;
+}
+.lead__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  color: white;
+  text-align: center;
+}
+.lead__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  display: flex;
+  text-align: center;
+  align-self: center;
+}
+
+.lead__image {
+  width: 928px;
+  height: 580px;
+}
+
+.lead__vektor {
+  width: 211.81px;
+  height: 835.58px;
+  z-index: 1;
+}
