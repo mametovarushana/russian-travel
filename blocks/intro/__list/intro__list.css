@@ -1,0 +1,25 @@
+.intro__list {
+  outline: 1px solid white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  list-style: none;
+  padding-left: 0;
+  max-width: 690px;
+}
+
+/*650px - 950px */
+@media screen and (max-width: 950px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+/* 320px - 650px*/
+@media screen and (max-width: 590px) {
+  .intro__list {
+    max-width: 288px;
+  }
+}
