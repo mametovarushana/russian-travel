@@ -5,6 +5,7 @@
   /* identical to box height, or 117% */
   text-align: right;
   margin: 0;
+  padding: 0;
   color: white;
   text-decoration: none;
   transition: opacity 0.8s ease-in;
@@ -17,4 +18,13 @@
 .header__lang-link:hover {
   opacity: 0.8s;
   text-decoration: underline;
+}
+/* 320px - 650px*/
+@media screen and (max-width: 590px) {
+  .header__lang-link {
+    max-width: 22px;
+    font-size: 18px;
+    line-height: 20px;
+    padding-right: 0;
+  }
 }

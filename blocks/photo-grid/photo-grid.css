@@ -1,3 +1,4 @@
+@import url(./__item/photo-grid__item.css);
 .photo-grid {
   max-width: 1184px;
   margin: 92px 48px 0 48px;
@@ -19,20 +20,6 @@
 /* 320px - 650px*/
 @media screen and (max-width: 590px) {
   .photo-grid {
-    margin: 64px 16px 0 16px;
-    grid-gap: 12px;
-  }
-}
-
-.photo-grid__item {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: grid;
-}
-/* 320px - 650px*/
-@media screen and (max-width: 590px) {
-  .photo-grid__item {
     margin: 64px 16px 0 16px;
     grid-gap: 12px;
   }
