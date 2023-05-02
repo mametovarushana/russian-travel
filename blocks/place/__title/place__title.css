@@ -9,7 +9,6 @@
   display: grid;
   align-self: left;
   justify-self: left;
-  outline: 3px solid white;
   max-width: 460px;
 }
 

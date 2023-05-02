@@ -4,12 +4,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  outline: 3px solid white;
   margin: 0 0 26px 0;
   max-width: 484px;
 }
 .place__paragraph:last-child {
-  outline: 3px solid white;
   margin: 0;
 }
 @media screen and (max-width: 1140) {

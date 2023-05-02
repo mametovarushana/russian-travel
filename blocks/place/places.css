@@ -1,7 +1,6 @@
 .places {
   display: grid;
   color: white;
-  outline: 3px solid white;
   max-width: 984px;
   margin: 92px auto;
   grid-gap: 80px;

@@ -6,7 +6,6 @@
 @import url(./__website/__url-heading/website__url-heading.css);
 .place {
   display: grid;
-  outline: 3px solid white;
   grid-template-columns: 460px 1fr;
   grid-template-rows: 1fr;
   grid-gap: 48px 40px;

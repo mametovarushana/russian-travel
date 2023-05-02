@@ -1,12 +1,10 @@
 .footer__links {
-  outline: white 3px solid;
   list-style: none;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   padding: 0;
-  
 }
 .footer__link {
   padding-right: 18px;
