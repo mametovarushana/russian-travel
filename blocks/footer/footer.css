@@ -1,3 +1,5 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
 .footer {
   max-width: 1184px;
   color: white;
@@ -5,33 +7,29 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 92px auto 24px auto;
+  margin: 0 48px 24px 48px;
 }
 
-.footer__links {
-  outline: white 3px solid;
-  list-style: none;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  padding: 0;
+@media screen and (max-width: 1140) {
+  .footer {
+    max-width: 928px;
+  }
 }
-.footer__link {
-  padding-right: 18px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+/*650px - 950px */
+@media screen and (max-width: 950px) {
+  .footer {
+    max-width: 720px;
+    margin: 24px 0 24px 24px;
+  }
 }
-.footer__link:last-child {
-  padding-right: 0;
-}
-.footer__copyright {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+/* 320px - 650px*/
+@media screen and (max-width: 590px) {
+  .footer {
+    max-width: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 16px;
+    margin: 24px;
+  }
 }

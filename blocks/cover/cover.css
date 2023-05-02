@@ -1,31 +1,33 @@
+@import url(./__background/cover__background.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
 .cover {
   max-width: 1184px;
-  margin: 0 auto;
+  margin: 92px 48px 92px 48px;
   color: white;
+  outline: 3px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.cover__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  /* or 106% */
-  text-align: center;
-  margin: 0 auto;
-  max-width: 560px;
+@media screen and (max-width: 1140) {
+  .cover {
+    max-width: 1024px;
+    margin: 92px 0 92px 0;
+  }
 }
-.cover__subtitle {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  width: 360px;
-  margin: 32px auto 0;
+/*650px - 950px */
+@media screen and (max-width: 950px) {
+  .cover {
+    max-width: 768px;
+    margin: 90px 0 92px 0;
+  }
 }
-.cover__background {
-  width: 100%;
-  background-size: cover;
+/* 320px - 650px*/
+@media screen and (max-width: 590px) {
+  .cover {
+    max-width: 320px;
+    margin: 66px 0 64px 0;
+  }
 }
