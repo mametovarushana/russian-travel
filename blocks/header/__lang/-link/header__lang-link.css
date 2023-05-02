@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   color: white;
-  text-decoration: none;
   transition: opacity 0.8s ease-in;
 }
 
@@ -15,7 +14,9 @@
   margin-right: 18px;
   text-decoration: underline;
 }
-
+.header__lang-link:last-child {
+  text-decoration: none;
+}
 .header__lang-link:hover {
   opacity: 0.8s;
   text-decoration: underline;
