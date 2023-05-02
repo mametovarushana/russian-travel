@@ -1,0 +1,27 @@
+.places {
+  display: grid;
+  color: white;
+  outline: 3px solid white;
+  max-width: 984px;
+  margin: 40px auto;
+  grid-gap: 80px;
+}
+
+@media screen and (max-width: 1140) {
+  .places {
+    max-width: 928px;
+  }
+}
+/*650px - 950px */
+@media screen and (max-width: 950px) {
+  .places {
+    max-width: 720px;
+  }
+}
+/* 320px - 650px*/
+@media screen and (max-width: 590px) {
+  .places {
+    max-width: 320px;
+    grid-template-columns: minmax(288px, 1fr);
+  }
+}

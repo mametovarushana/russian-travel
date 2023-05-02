@@ -1,0 +1,31 @@
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  color: white;
+}
+
+.cover__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  text-align: center;
+  margin: 0 auto;
+  max-width: 560px;
+}
+.cover__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  width: 360px;
+  margin: 32px auto 0;
+}
+.cover__background {
+  width: 100%;
+  background-size: cover;
+}
