@@ -8,6 +8,7 @@
   display: flex;
   align-self: center;
   margin: 0 auto;
+  
 }
 .cover__background:hover {
   opacity: 0.3;
