@@ -8,17 +8,18 @@
   padding: 0;
   color: white;
   transition: opacity 0.8s ease-in;
+  text-decoration: none;
 }
 
 .header__lang-link:first-child {
   margin-right: 18px;
-  text-decoration: underline;
 }
-.header__lang-link:last-child {
-  text-decoration: none;
-}
+
 .header__lang-link:hover {
   opacity: 0.8s;
+}
+
+.header__lang-link_selected {
   text-decoration: underline;
 }
 /* 320px - 650px*/

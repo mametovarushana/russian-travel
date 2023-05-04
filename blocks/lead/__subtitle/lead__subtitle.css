@@ -11,41 +11,12 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1140) {
-  .lead__subtitle {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    /* or 120% */
-    max-width: 640px;
-    text-align: center;
-  }
-}
-/*650px - 950px */
-@media screen and (max-width: 950px) {
-  .lead__subtitle {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    /* or 120% */
-    max-width: 640px;
-    text-align: center;
-  }
-}
 /* 320px - 650px*/
 @media screen and (max-width: 590px) {
   .lead__subtitle {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     /* or 125% */
     max-width: 288px;
-    text-align: center;
   }
 }
