@@ -5,14 +5,13 @@
     height: 100%;
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
-    background-repeat: cover;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    position: absolute;
 }
 
 .cover__link::before {
@@ -30,5 +29,5 @@
 }
     
 .cover__link:hover {
-opacity: 0.8;
+    opacity: 0.8;
 }

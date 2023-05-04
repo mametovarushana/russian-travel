@@ -39,7 +39,7 @@
   }
 }
 /* 320px - 650px*/
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 610px) {
   .lead__caption {
     font-family: "Inter";
     font-style: normal;

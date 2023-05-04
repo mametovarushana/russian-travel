@@ -10,25 +10,6 @@
 }
 .place__link:hover {
   opacity: 0.7;
-  color: white;
+  color: grey;
 }
-@media screen and (max-width: 1140) {
-  .place__link {
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
-/*650px - 950px */
-@media screen and (max-width: 950px) {
-  .place__link {
-    font-size: 42px;
-    line-height: 46px;
-  }
-}
-/* 320px - 650px*/
-@media screen and (max-width: 590px) {
-  .place__link {
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
+
