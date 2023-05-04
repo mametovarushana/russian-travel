@@ -1,5 +1,5 @@
 # Проектная работа: Путешествие по России
-#### Cсылка на [проект](https://mametovarushana.github.io/russian-travel/)
+#### Cсылка на проектную работу [GitHub Pages](https://mametovarushana.github.io/russian-travel/)
 ## [Яндекс курс "Веб-разработчик"](https://practicum.yandex.ru/)
 
 ### Описание проекта
