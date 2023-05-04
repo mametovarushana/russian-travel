@@ -11,13 +11,13 @@
 }
 
 /*650px - 950px */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1023px) {
   .intro__list {
     max-width: 720px;
   }
 }
 /* 320px - 650px*/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 767px) {
   .intro__list {
     max-width: 288px;
   }

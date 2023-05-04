@@ -9,19 +9,19 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1140) {
+@media screen and (max-width: 1279) {
   .cover__subtitle {
     margin: 379px auto;
   }
 }
 /*650px - 950px */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1023px) {
   .cover__subtitle {
     margin: 229px auto;
   }
 }
 /* 320px - 650px*/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     font-weight: 400;
     font-size: 14px;

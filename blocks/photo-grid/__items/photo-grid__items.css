@@ -8,7 +8,7 @@
 }
 
 /* 320px - 650px*/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 767px) {
   .photo-grid__items {
     margin: 64px 16px 0 16px;
     grid-gap: 12px;

@@ -5,7 +5,7 @@
 }
 
 /*650px - 950px */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     margin: 88px 24px 0 24px;
     padding: 0;
@@ -13,7 +13,7 @@
   }
 }
 /* 320px - 650px*/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     margin: 0;
     grid-gap: 16px 12px;

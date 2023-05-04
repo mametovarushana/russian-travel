@@ -12,7 +12,7 @@
   margin: 8px 0 0;  
 }
 
-@media screen and (max-width: 1140) {
+@media screen and (max-width: 1279px) {
   .lead__caption {
     font-family: "Inter";
     font-style: normal;
@@ -25,7 +25,7 @@
   }
 }
 /*650px - 950px */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
     font-family: "Inter";
     font-style: normal;
@@ -39,7 +39,7 @@
   }
 }
 /* 320px - 650px*/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     font-family: "Inter";
     font-style: normal;

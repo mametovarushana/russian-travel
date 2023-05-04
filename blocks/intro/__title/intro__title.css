@@ -12,13 +12,13 @@
 }
 
 /*650px - 950px */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1023pxpx) {
   .intro__title {
     max-width: 720px;
   }
 }
 /* 320px - 650px*/
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     font-family: "Inter";
     font-style: normal;
