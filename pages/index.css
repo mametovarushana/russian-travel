@@ -36,6 +36,4 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/places/places.css);
-*{
-    border: 1px solid red;
-}
+
