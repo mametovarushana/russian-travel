@@ -1,16 +1,6 @@
 .cover__link { 
     text-decoration: none;
     color: white;
-    background-image: url(../../../images/cover-trains.jpg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
 }
 
 .cover__link::before {
@@ -19,7 +9,6 @@
     transition: opacity 0.3 ease;
 }
 .cover__link::after {
-    opacity: 0.8;
     background-color: #2A2C2F;
 }
 .cover__link:hover {
