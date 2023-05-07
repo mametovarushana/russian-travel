@@ -6,9 +6,10 @@
   line-height: 22px;
   text-decoration: underline;
   color: white;
-  transition: opacity 0.8s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 .place__link:hover {
   opacity: 0.8;
+  color: rgb(214, 213, 213);
 }
 

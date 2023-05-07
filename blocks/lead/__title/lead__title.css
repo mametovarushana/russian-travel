@@ -9,18 +9,14 @@
   max-width: 720px;
   text-align: center;
   align-self: center;
-  margin: 74px 0 32px 0;
+  margin: 0 0 32px 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 1279px) {
-  .lead__title {
-    margin: 0 48px 32 24px;
-  }
-}
-/*650px - 950px */
+/*767px - 950px */
 @media screen and (max-width: 1023px) {
   .lead__title {
-    margin: 0 24px 32px 24px;
+    margin:  0 24px 32px 24px;
   }
 }
 /* 320px - 650px*/
