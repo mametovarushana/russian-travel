@@ -11,18 +11,7 @@
   color: white;
 }
 
-@media screen and (max-width: 1279) {
-  .cover__subtitle {
-    margin: 0 auto;
-  }
-}
-/*650px - 950px */
-@media screen and (max-width: 1023px) {
-  .cover__subtitle {
-    margin: 0 auto;
-  }
-}
-/* 320px - 650px*/
+/* 320px - 767px*/
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     max-width: 288px;
