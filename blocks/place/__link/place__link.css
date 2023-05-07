@@ -9,7 +9,6 @@
   transition: opacity 0.8s ease-in-out;
 }
 .place__link:hover {
-  opacity: 0.7;
-  color: grey;
+  opacity: 0.8;
 }
 

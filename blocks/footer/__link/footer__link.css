@@ -1,6 +1,4 @@
-
 .footer__link {
-  padding-right: 18px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -11,9 +9,6 @@
   color: white;
   transition: opacity 0.3 ease-in;
   margin: 0;
-}
-.footer__link:last-child {
-  padding-right: 0;
 }
 
 .footer__link:hover {

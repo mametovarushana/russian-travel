@@ -15,9 +15,6 @@
   color: grey;
 }
 
-.header__lang-link_selected {
-  text-decoration: underline;
-}
 /* 320px - 650px*/
 @media screen and (max-width: 767px) {
   .header__lang-link {

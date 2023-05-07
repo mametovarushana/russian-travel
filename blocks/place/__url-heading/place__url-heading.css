@@ -1,8 +1,9 @@
-.place__website__url-heading {
+.place__url-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   margin: 0 0 12px 0;
+  text-transform: uppercase;
 }
