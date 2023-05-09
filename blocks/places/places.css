@@ -1,8 +1,8 @@
 .places {
+  margin: 0 auto; 
   color: white;
   max-width: 984px;
-  background-color:#2A2C2F;
-  margin: 0 auto; 
+  background-color: #2A2C2F;
   padding: 0 0 92px 0;
 }
 
