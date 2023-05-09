@@ -6,11 +6,12 @@
     grid-gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   }
-  
+
   /* 320px - 650px*/
   @media screen and (max-width: 767px) {
-    .photo-grid__items {
-      margin: 64px 16px 0 16px;
+    .photo-grid__items {  
+    max-width: 288px;
+    margin: 0 auto;
     }
   }
-  
+    

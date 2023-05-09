@@ -1,6 +1,8 @@
 .photo-grid {
     max-width: 1184px;
-    margin: 92px 48px 0 48px;
+    margin: 0 auto;
+    display: grid;
+    padding-bottom: 92px;
   }
   
   @media screen and  (max-width: 1279px) {
@@ -12,15 +14,14 @@
   @media screen and (max-width: 1023px) {
     .photo-grid {
       max-width: 720px;
-      margin: 88px 24px 90px 24px;
-      grid-gap: 16px;
+      padding-bottom: 88px;
     }
   }
   /* 320px - 650px*/
   @media screen and (max-width: 767px) {
     .photo-grid {
-      margin: 0 auto;
-      grid-gap: 16px 12px;
+      max-width: 320px;
+      padding-bottom: 68px;
     }
   }
   
